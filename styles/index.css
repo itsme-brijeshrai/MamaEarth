@@ -82,4 +82,30 @@
 .card-body p:nth-child(2){
     color: rgb(129, 194, 64);
 }
+#videocard{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+#videocard div{
+    width: 45%;
+    /* border: 1px solid black; */
+}
+.video {
+    margin: auto;
+}
+.inform h4{
+    text-align: center;
+    color: rgb(0, 175, 239);
+}
+.inform p{
+    width: 90%;
+    font-size: 20px;
+    text-align: justify;
+}
+.inform .button{
+    padding-left: 8rem;
+}
 
