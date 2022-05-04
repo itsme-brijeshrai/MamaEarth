@@ -1,125 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Lato:wght@300;400&family=Poppins:wght@200;600&family=Roboto+Mono:wght@200;300&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
-    font-family: 'Lato',sans-serif;
-}
-.head1{
-    width: 100%;
-    height: 30px;
-    color: #fff;
-    font-size: 12px;
-    background-color: rgb(212, 66, 76);
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-evenly;
-}
-.head1 div:nth-child(1){
-    /* border: 1px solid black; */
-    width: 35%;
-}
-.head1 div:nth-child(2){
-    /* border: 1px solid black; */
-    width: 35%;
-}
-.head1 div{
-    margin: auto;
-
-}
-.head1 div:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.head2{
-    width: 100%;
-    height: 60px;
-    display:flex;
-    justify-content: space-evenly;
-    /* border: 1px solid black; */
-}
-
-.head2 div{
-    width: 30%;
-    height: 70%;
-    margin: auto;
-    /* border: 1px solid black; */
-}
-.head2 div:nth-child(1){
-    width: 12%;
-}
-.head2 div:nth-child(2){
+.container-fluid img{
     width: 40%;
 }
-.head2 div:nth-child(3){
-    width: 15%;
+.form-control{
+    width: 30pc;
 }
-#logo img{
-    width: 100%;
-    height: 100%;
+.nav-item{
+    padding-left: 5rem;
 }
-#search_bar{
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+.fa-carticon{
+    color: rgb(13, 110, 253);
+    margin-right: 1rem;
 }
-#search_bar input{
-    width: 80%;
-    height: 100%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+.fa-loginicon{
+    color: rgb(13, 110, 253);
+    margin-right: 1rem;
 }
-#search_bar button{
-    height: 100%;
-    width: 20%;
+.btn{
     color: #fff;
-    background-color: rgb(0, 175, 239);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
-#search_bar .search_icon{
-    margin-right: 10px;
+.search_icon{
+    margin-right: 5px;
 }
-#log{
-    display:grid;
-    grid-template-columns: repeat(2,1fr); 
-}
-#log div{
+#login-btn{
     width: 100%;
-    height: 100%;
 }
-#log #cart_icon{
-    margin-right: 10px;
-    color: rgb(0, 175, 239);
-}
-#log #profile_icon{
-    margin-right: 10px;
-    color: rgb(0, 175, 239);
-}
-.head3{
-    width: 100%;
-    height: 40px;
-    box-shadow: rgb(0 0 0 / 10%) 0px 3px 6px;
-    /* border: 1px solid black; */
-}
-.item{
-    font-size: 12.6px;
-    font-family: 'Roboto';
-    width: 70%;
-    height: 80%;
-    display: flex;
-    margin-top: 5px;
-    margin-left: 40px;
-    list-style: none;
-    text-decoration: none;
-    justify-content: space-around;
-    /* border: 1px solid black; */
 
+.navbar-nav #home_bar{
+    color: rgb(0, 175, 239);
 }
-.item li a{
-    color: rgb(110, 106, 110);
-    text-decoration: none;
-}
-#adv_1{
-    width: 100%;
-    height: 380px;
-    /* border: 1px solid black; */
+#nav-2{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
