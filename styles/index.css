@@ -45,3 +45,41 @@
     cursor: pointer;
     text-decoration: underline;
 }
+#cardsplay{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 530px;
+}
+#info{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+#info .card{
+    width: 40%;
+    height: 70%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-right:2rem ;
+}
+#info p{
+    margin-top: 2rem;
+    color: black;
+}
+#owl_corousel{
+    width: 60%;
+    height: 100%;
+    display:flex;
+    /* border: 1px solid black; */
+}
+.card-title{
+    text-align: center;
+}
+.card a{
+    width: 100%;  
+}
+.card-body p:nth-child(2){
+    color: rgb(129, 194, 64);
+}
+
