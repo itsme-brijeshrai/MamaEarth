@@ -8,14 +8,15 @@
     padding-left: 5rem;
 }
 .fa-carticon{
-    color: rgb(13, 110, 253);
+    color: rgb(0, 175, 239);
     margin-right: 1rem;
 }
 .fa-loginicon{
-    color: rgb(13, 110, 253);
+    color:rgb(0, 175, 239);
     margin-right: 1rem;
 }
 .btn{
+    background-color: rgb(0, 175, 239);
     color: #fff;
 }
 .search_icon{
@@ -30,4 +31,17 @@
 }
 #nav-2{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#head1{
+    font-size: 12px;
+    background-color: rgb(212, 66, 76);
+    display: flex;
+    justify-content: space-evenly;
+}
+#head1 span{
+    color: #fff;
+}
+#head1 span:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
