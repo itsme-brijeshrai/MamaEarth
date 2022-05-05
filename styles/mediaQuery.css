@@ -1,0 +1,48 @@
+@media (max-width:1024px){
+   .container-fluid img{
+       width: 40%;
+   } 
+   .form-control{
+       width: 200px;
+   }
+   .nav-item{
+       padding-left:1rem;
+   }
+   #footer_start{
+       width: 100%;
+   }
+   #footer_start .footInfo{
+       margin-left: 1rem;
+   }
+   .knowMore{
+       margin-left: 5rem;
+       width: 50%;
+       height: 50px;
+   }
+   .inform p{
+       font-size:13px;
+   }
+   #last-class{
+       height: 550px;
+   }
+   #last-class img{
+       margin-top: 7rem;
+   }
+}
+
+@media (max-width:768px){
+    #last-class{
+        height: 350px;
+    }
+    #last-class p{
+        height: 100px;
+        font-size: 10px;
+    }
+    #last-class img{
+        margin-bottom: 1rem;
+        width: 100px;
+    }
+    .card img{
+        margin-top: 1px;
+    }
+}
