@@ -108,4 +108,107 @@
 .inform .button{
     padding-left: 8rem;
 }
+#footer_start{
+    width: 100%;
+    height: 400px;
+    background-image:url('https://mamaearthp.imgix.net/wysiwyg/desktop_home_img.png?auto=format');
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+}
+#footer_start .footInfo{
+    margin-left: 45rem;
+    text-align: justify;
+    text-align: center;
+    padding-top: 5rem;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+#footer_start img{
+    width: 100%;
+    height: 100%;
+}
+.footNum{
+    letter-spacing: 0.36rem;
+    color: rgb(129, 194, 64);
+}
 
+.knowMore{
+    margin-left: 15rem;
+    margin-top: 1rem;
+    width: 30%;
+    height: 50px;
+    background-image: url('https://mamaearthp.imgix.net/wysiwyg/desktop_cta2x.png?auto=format');
+    background-size: cover;
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+#safeStandard{
+    width: 100%;
+    margin-top: 1rem;
+}
+#safeStandard img{
+    width: 100%;
+}
+#last-class{
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#card-body{
+    height: 100%;
+}
+#card-body p{
+    height: 200px;
+}
+.card img{
+    border-radius: 2pc;
+}
+#footer{
+    width: 100%;
+    height: 1000px;
+    /* border: 2px solid black; */
+}
+
+#footer .box1{
+    display: flex;
+}
+.b1{
+    width: 20%;
+    text-align: center;
+}
+.b2{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-truck, .fa-wallet{
+    font-size: 40px;
+}
+.box2 img{
+    width: 100%;
+}
+.box3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box3 img{
+    width: 200px;
+    height: 300px;
+}
+.box4{
+    text-align: center;
+}
+.box4 .fa-heart{
+    color: rgb(255, 0, 0);
+}
+.box4 span{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.box5{
+    text-align: center;
+}
