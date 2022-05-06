@@ -183,9 +183,15 @@ iframe{
 #footer .box1{
     display: flex;
 }
+.box1{
+    /* border: 2px solid black; */
+    padding-top: 1rem;
+}
 .b1{
+    /* padding-top: 1rem; */
     width: 20%;
     text-align: center;
+    
 }
 .b2{
     width: 80%;
