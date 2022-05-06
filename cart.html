@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+    #container{
+    display: flex;   
+    }
+    #main img{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: 10px 10px 5px #82c341; */
+    } #main img:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+    border-radius: 10px;
+    }
+    #main{
+
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+
+    gap: 10px;
+    font-family:sans-serif;
+    padding-left: 10px;
+
+    }
+
+    #box2{
+    padding: 10px;
+    display: flex;
+    border: px solid green;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: 0px 7px 29px 0px #82c341; */
+    border-radius: 10px;
+    }
+
+    #box1{
+    width: 400px;
+    height: 170px;
+    border: px solid coral;
+    margin-left: 30px;
+
+    }#box3{
+    margin-top: -15%;
+    width:75px;
+    height: 27px;
+    border: 1px solid #00aeef;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    align-items: center;
+    text-align: center;
+
+    }
+    #box2 p{
+    padding-left: 20px;  
+    font-size: 17px;
+    }
+
+    #box3 h3{
+    padding: 10px;
+    }
+    #box3  button{
+    color:#82c341;
+    border: 0px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: white;
+    }
+
+    #box3 #btn:hover{
+    background-color: #82c341;
+    color: white;
+    transition: 0.5s;
+    }
+    #box3 #btn1:hover{
+    background-color: #00aeef;
+    color: white;
+    transition: 0.5s;
+    }
+    #box2 h3{
+    padding-left: 20px;  
+    }
+    #box1{
+    font-size: 13px;
+    width: 300px;
+    height: 130px;
+    border: 0px solid coral;
+    margin-left: 0px;
+
+    }
+
+    #box img{
+    width: 120px;
+    height: 120px;
+
+    }
+    #box3{
+
+    margin-top: -10%;
+    width:58px;
+    height: 20px;
+    border: 1px solid #82c341;
+    margin-left: 150px;
+    margin-top: -50px;
+    }
+    #box3 h3{
+    padding: 5px;
+    }
+    #box3  button{
+    color:#82c341;
+    /* border: 1px solid; */
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    }
+    /* .........apply offer */
+    #code{
+
+    border-radius: 10px;
+    width: 300px;
+    height: 330px;
+    font-family: sans-serif;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    }
+    #code{
+text-align: center;
+    width: 200px;
+    height: 300px;
+    /* border: 2px solid; */
+    margin-top: 50px;
+    };
+    #code div{
+
+    font-size: 15px;
+    background-color: black;
+    border: 0px solid;
+    text-align: center;
+    }
+    #promo h2{
+    font-size: 19px;
+    }
+    #total h2{
+    font-size: 19px;
+    }#Coupon h2{
+    font-size: 19px;
+    }
+    #shipping h2{
+    font-size: 19px;
+
+    }#grnd h2{
+    font-size: 19px;
+    }
+    #continue{
+
+    width:90px;
+    height: 30px;
+    }
+    #applyoffer{
+    color:#82c341;
+    }
+    #applyoffer h2:hover{
+    border: 0px solid  #82c341;
+    transition: 0.5s;
+padding-top: 3px;
+padding-bottom: 3px;
+    /* height: 30px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+ 
+    }
+    #click{
+    display: none;
+    }
+    #code{
+        text-align: center;
+    margin-left: 10px;
+    width: 250px;
+    height: 300px;
+    border: px solid;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    };
+    /* #code div{
+
+    font-size: 15px;
+    background-color: black;
+    border: 1px solid;
+    text-align: center;
+    } */
+
+
+    #promocode{
+    width: 100%;
+    height: 40px;
+    color:#82c341;
+
+    }
+    #odersummary{
+        padding-top: 10px;
+    font-family: sans-serif;
+ 
+    color: #82c341;
+   
+    }
+    #strk{
+    text-decoration: line-through;
+    }#promo{
+        align-items: center;
+    width: 100%;
+    height: 50px;
+    border: 0px solid;
+    /* text-align: center; */
+    }#total{
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: 50px;
+    border: 0px solid;
+
+    }#Coupon{
+
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%;
+    height: 50px;
+    border: 0px solid; 
+    background-color: #dfefce;
+
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+
+    #couponimg{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    /* margin-top: 10px; */
+
+
+    }
+
+    #shipping{
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: 50px;
+    border: 0px solid; 
+    }
+    #grnd{  font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: 50px;
+    border: 0px solid; 
+    }#btton{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: 50px;
+    border: 0px solid;  
+    padding: 10px;  
+    }
+    #continue{
+    width: 100px;
+    height: 40px;
+    background-color:#82c341 ;
+    color: white;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 5px;
+
+    }
+    #discount{
+    color: #82c341;
+    }
+    /* .....coupns section */
+    .content{
+    margin-left: -100px;
+    margin-top: -55px;
+    color: white;
+    margin-left: 280px;
+    opacity: 0;
+    visibility: hidden;
+    width: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    }
+    #click:checked ~.content{
+    opacity: 1;
+    visibility: visible;
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+    }
+    .header{
+    background-color:#82c341;
+    border-radius: 10px;
+    border: 1px solid;
+
+    }
+    .header h2{
+    color: white;
+    padding-top: 5px;
+    }
+
+    #dis20 {
+    padding-bottom: 20px;
+    padding-right: 2px;
+    width: 99%;
+    height: 60px;
+    border: 0px solid;
+    align-items: center;
+    text-align: center;
+ 
+    }
+    #dis20:hover{transition: 0.7s;
+    background-color:#dfefce;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+
+    #dis30 {
+    padding-bottom: 20px;
+    padding-right: 2px;
+    width: 99%;
+    height: 60px;
+    border: 0px solid;
+    align-items: center;
+    text-align: center;
+    }
+    #dis30:hover{transition: 0.3s;
+    background-color:#dfefce;
+    color: black;
+    cursor: pointer;
+    }
+    .content{
+    border: 1px solid;
+    }
+/* ...................... */
+@media only screen and (min-width: 421px) and (max-width: 782px){
+    #main{
+            margin-top: -40px;
+            display: grid;
+            grid-template-columns: repeat(1,100%);
+            gap: 10px;
+            font-family:sans-serif;
+            padding-left: 10px;
+        }
+   
+   
+   
+    #container{
+        display: block;  
+        border: px solid;
+    }
+  
+
+   
+#box2 h2{
+    padding-left: 20px;  
+}
+}
+
+@media only screen and (min-width: 81px) and (max-width: 420px){
+
+    #click:checked ~.content{
+    opacity: 1;
+    visibility: visible;
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+    }
+    #container{
+   
+      display: block;
+      margin-bottom: 20px;
+      /* background-color: green; */
+  }
+  #main{
+    display:block;
+   
+  }
+  #box2{
+    
+    display: block;
+      margin-bottom: 20px;
+    
+}
+#box2 h2{
+    padding-left: 20px;
+}#box2 h3{
+    padding-left: 20px;  
+}
+#box1{
+    font-size: 13px;
+            width: 250px;
+            height: 130px;
+            border: px solid coral;
+           margin-left: 0px;
+            /* background-color: #00aeef; */
+        }
+        #box img{
+            width: 100px;
+            height: 100px;
+          
+        }
+        #box3{
+            
+            margin-top: -10%;
+            width:58px;
+            height: 20px;
+            border: 1px solid #00aeef;
+            border-radius: 3px;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 150px;
+            margin-top: -50px;
+            align-items: center;
+            text-align: center;
+        
+        }
+        #box3 h3{
+        padding: 5px;
+    }
+    #box3  button{
+  color: #00aeef;
+  border: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+    }
+    #code{margin: auto;
+        
+        width: 180px;
+        height: 300px;
+        /* background-color: #00aeef */
+    };
+    #code div{
+      
+        font-size: 15px;
+        background-color: black;
+        border: 0px solid;
+        text-align: center;
+    }
+    #promo h2{
+        font-size: 19px;
+    }
+    #total h2{
+        font-size: 19px;
+    }#Coupon h2{
+        font-size: 19px;
+    }
+#shipping h2{
+        font-size: 19px;
+
+}#grnd h2{
+    font-size: 19px;
+}
+#continue{
+   
+    width:90px;
+    height: 30px;
+   
+
+}
+#code{
+
+margin: auto;
+      margin-top: 30px;
+     
+  };
+
+
+}
+/* ................. */
+
+      #apply_offer1{
+        align-items: center;
+          width: 90px;
+          height: 20px;
+          border: 1px solid;
+          text-align: center;
+          align-items: center;
+          border-radius: 10px;
+          margin-left: 30%;
+          margin-right: 10px;
+      }
+      #apply_offer2{
+        
+          width: 90px;
+          height: 20px;
+          border: 1px solid;
+          text-align: center;
+          align-items: center;
+          border-radius: 10px;
+          margin-left: 30%;
+          margin-right: 10px;
+      }
+  .close-btn:hover{
+      color:black;
+  }
+ #imgdisount{
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+     margin-top: -17px;
+
+ }
+ #imgdisount img{
+     margin-left: 10px;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+ }
+ 
+    </style>
+</head>
+<body>
+    
+
+    <h1 id="odersummary">Order Summary</h1>
+
+    <div id="container">
+
+    <div id="main">
+    <div id="img"></div>
+    <div id="detail">
+    <h2 id="qunt"></h2>
+    </div> 
+   </div>
+  
+   <div id="code">
+ 
+    
+    <div id="promo">
+        <div class="center">
+        <input type="checkbox" id="click">
+        <label for="click" id="applyoffer"><h2>Apply offer</h2> </label>
+        <div class="content"> 
+        <div class="header">
+        <h2>Coupon</h2>
+        <p>Available Coupons</p>
+        <div id="dis20"> 
+        <p>Upto 20% off on First Order </p>
+        <div id="imgdisount"> 
+            <img src="https://static.shoplightspeed.com/shops/606983/files/001201947/10percentoff.png alt="">
+          <p id="apply_offer1">Apply</p>
+          </div>
+    </div>
+
+        <div id="dis30">  
+            <p>Upto 30% off on Hair Products </p>
+           
+     <div id="imgdisount"> 
+     <img src="https://th.bing.com/th/id/OIP.tSdUeJIvuJXlNkRoL30vpAHaHP?pid=ImgDet&rs=1" alt="">
+     <p id="apply_offer2">Apply</p>
+     </div>
+            </div>
+
+            <label for="click" class="close-btn" >close</label>
+            </div>
+            </div>
+            </div>
+        </div>
+    <!--  -->
+            <div id="Coupon"><div><p >Coupon Discount</p></div>
+                <div id="couponimg">
+                <img src="https://mamaearth.in/static/mamaearth/ruppee.svg" alt="">
+                </div>
+                <div ><p id="discount"></p></div>
+            </div>
+
+    <!--  -->
+            <div id="total">
+                <div><p>Order Total</p></div>
+                <div><p  id="printtotal"></p></div>
+            </div>
+<!-- ...... -->
+
+            <div id="shipping"> 
+                <div><p>Shipping </p>  </div>
+                <div><p>₹40</p></div>
+            </div>
+            <!--  -->
+            <div id="grnd">
+                <div ><p>Grand Total</p></div>
+                <div><p id="grandtotal"></p></div>
+            </div>
+            <!--  -->
+            <div id="btton">
+                <div><p id="grandtotal"></p></div>
+                <div><a href="#"><button id="continue"> CONTINUE</button></a></div>
+            </div>
+            <!--  -->
+
+            </div>
+
+            </div>
+
+
+</body>
+</html><script>
+     let cartdata=JSON.parse(localStorage.getItem("project")) ||[]
+     
+if(cartdata.length==0){
+    window.location.href="buton.html"
+
+}else{
+    
+var total= cartdata.reduce(function(sum,el,i,arr){
+    return sum+Number(el.price)
+},0)
+
+//   .apply offer section.............
+    let apply_offer1=document.getElementById("apply_offer1").addEventListener("click",myapply_offer1)
+    let price1=Math.floor((total/100*20));
+    function myapply_offer1(){
+    let discount1=document.getElementById("discount").innerText=`-${price1}`
+    document.getElementById("grandtotal").innerText=`₹${Number((total+40)-discount1)}`
+    console.log(price)
+}
+
+// ..........
+    let apply_offer2=document.getElementById("apply_offer2").addEventListener("click",myapply_offer2)
+    let price2=Math.floor((total/100*30));
+    function myapply_offer2(){
+    let discount2=document.getElementById("discount").innerText=`-${price2}`
+    document.getElementById("grandtotal").innerText=`₹${Number((total+40)-discount2)}`
+    console.log(price)
+}
+
+
+var grandtot= cartdata.reduce(function(sum,el,i,arr){
+return sum+Number((el.price)+40)
+},0)
+
+document.getElementById("grandtotal").innerText=`₹${Number((total+40))}`
+
+document.getElementById("printtotal").innerText=`₹${total}`
+
+
+        let a=document.getElementById("img")
+        let b=document.getElementById("detail")
+        let main=document.getElementById("main")
+        let qunt=document.getElementById("qunt").Value;
+
+        cartdata.map(function(el,i,arr){
+        var box=document.createElement("div")
+        box.setAttribute("id","box")
+        var box1=document.createElement("div")
+        box1.setAttribute("id","box1")
+        var box2=document.createElement("div")
+        box2.setAttribute("id","box2")
+        var box3=document.createElement("div")
+        box3.setAttribute("id","box3")
+        var image=document.createElement("img")
+        image.src=el.imgUrl;
+        var name=document.createElement("h3")
+        name.innerText=el.name;
+
+        var strk=document.createElement("h3")
+        strk.innerText=el.strikedOffPrice;
+        strk.setAttribute("id","strk")
+        
+        var price=document.createElement("p")
+        price.innerText=`₹${el.price}`;
+        price.setAttribute("id","price")
+     
+        var count=document.createElement("h3")
+        count.innerText=el.count
+        count.setAttribute("id","count");
+
+        var btn=document.createElement("button")
+        btn.innerText="-"
+        btn.setAttribute("id","btn")
+        btn.addEventListener("click",function(){
+        sub(el,i)
+        })
+
+        var btn1=document.createElement("button")
+        btn1.innerText="+";
+        btn1.setAttribute("id","btn")
+        btn1.addEventListener("click",function(){
+        add(el,i)
+        })
+
+        box.append(image)
+        box1.append(name,price,strk)
+
+        box2.append(box,box1)
+        main.append(box2)
+        box3.append(btn,count,btn1)
+        box1.append(box3)
+
+        })
+   
+        // count button add function
+        let count=1
+        function add(el,i){
+        count++ 
+
+document.getElementById("count").innerText=count;
+var change= document.getElementById("price").innerText=el.price*count;
+document.getElementById("printtotal").innerText=`₹${Number((change+total)-el.price)}`
+document.getElementById("grandtotal").innerText=`₹${Number((change+total+40)-el.price)}`
+price1=Math.floor(Number(Number((change+total)-el.price)/100*20))
+price2=Math.floor(Number(Number((change+total)-el.price)/100*30))
+        
+        }
+        var changeprice;
+        function  sub(el,i){
+        count--
+        if(count==0){
+        cartdata.splice(i,1)
+        localStorage.setItem("project",JSON.stringify(cartdata))
+        window.location.reload()
+        }
+        document.getElementById("count").innerText=count;
+var change= document.getElementById("price").innerText=el.price*count;
+document.getElementById("printtotal").innerText=`₹${Number((change+total)-el.price)}`
+document.getElementById("grandtotal").innerText=`₹${Number((change+total+40)-el.price)}`
+price1=Math.floor(Number(Number((change+total)-el.price)/100*20))
+price2=Math.floor(Number(Number((change+total)-el.price)/100*30))
+
+
+        }
+        // document.getElementById("promocode").addEventListener("click",myapplyoffer)
+
+
+
+}
+
+</script>
