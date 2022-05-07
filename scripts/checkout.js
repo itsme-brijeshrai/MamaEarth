@@ -1,6 +1,6 @@
-function clickMe(){
-    // console.log("my");
-    var text=document.getElementById("popup");
-    text.classList.toggle("hide");
-    text.classList.toggle("show");
-}
+
+ import footer from "../components/footer.js";
+let end = document.getElementById('footshow')
+end.innerHTML = footer();
+
+
