@@ -12,7 +12,7 @@ function header_body(){
         </span>Search</button></div>
     <div id="log">
         <div><i class="fa-solid fa-cart-shopping"></i>Cart</div>
-        <div><i class="fa-solid fa-user"></i>Login</div>
+        <div><i class="fa-solid fa-user"></i><a style = text-decoration:none; href="./sign up/signup.html">Login</a></div>
     </div>
 </div>`
 }
