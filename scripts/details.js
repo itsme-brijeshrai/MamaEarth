@@ -23,7 +23,7 @@ function show_upi(){
     </div>
     <div class="col-9" >
         <input type="number" id="upi1" class="form-control form-control-md" style="margin-left:35px;" placeholder="Enter your UPI ID" required/>
-        <button id="btnP">PLACE ORDER</button>
+        <button id="btnP"><a style= text-decoration:none; href="cash.html">PLACE ORDER</a></button>
     </div>
     <div id="easy">
         <img id="i1" src="img/noun_trusted_27146262x_6Ekja92.webp" alt="">
@@ -75,7 +75,7 @@ function show_credit(){
        
     </div>
     <div class="col-9">
-        <button id="btnP">PLACE ORDER</button>
+    <button id="btnP"><a style= text-decoration:none; href="cash.html">PLACE ORDER</a></button>
     </div>
     <div id="easy">
         <img id="i1" src="img/noun_trusted_27146262x_6Ekja92.webp" alt="">
@@ -140,7 +140,7 @@ function show_net(){
             <option value="4">ICICI Bank</option>
             <option value="5">Canara Bank</option>
         </select>
-        <button id="btnP">PLACE ORDER</button>
+        <button id="btnP"><a style= text-decoration:none; href="cash.html">PLACE ORDER</a></button>
     </div>
     <div id="easy">
         <img id="i1" src="img/noun_trusted_27146262x_6Ekja92.webp" alt="">
@@ -193,7 +193,7 @@ function show_wallets(){
   </div>
     <div class="col-9" >
        
-        <button id="btnP">PLACE ORDER</button>
+    <button id="btnP"><a style= text-decoration:none; href="cash.html">PLACE ORDER</a></button>
     </div>
     <div id="easy">
         <img id="i1" src="img/noun_trusted_27146262x_6Ekja92.webp" alt="">
@@ -234,7 +234,7 @@ function show_cashOn(){
     
     <div class="col-9" >
        
-        <button id="btnP">PLACE ORDER</button>
+        <button id="btnP"><a style= text-decoration:none; href="cash.html">PLACE ORDER</a></button>
     </div>
     <div id="easy">
         <img id="i1" src="img/noun_trusted_27146262x_6Ekja92.webp" alt="">
