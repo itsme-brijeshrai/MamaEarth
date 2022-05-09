@@ -1,0 +1,157 @@
+.footer{
+    width: 85%;
+    margin:auto;
+    /* border: 1px solid lightgray; */
+}
+.first{
+    display:flex;
+
+    height:130px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+#first1{
+    height: 130px;
+    width: 25%;
+    /* position: absolute; */
+    float: left;
+    border: 1px solid lightgray;
+}
+.first2{
+    height: 130px;
+    width: 30%;
+    /* border: 2px solid lightgray; */
+}
+.first3{
+    height: 110px;
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+#contactHome{
+    margin-top: 25px;
+    height: 45px;
+    width: 165px;
+    border-radius: 5px;
+    color: #00afef;
+    background-color: white;
+    border:  1px solid #00afef;
+    font-size: 15px;
+}
+#contactHome:hover{
+    color: white;
+    background-color: #00afef;
+}
+.fa-shipping-fast{
+    color: #96ca41;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.fa-wallet{
+    color: #96ca41;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+.t1{
+    text-align: center;
+    font-weight: bold;
+}
+.t2{
+    text-align: center;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.T2{
+    margin-left: 26%;
+    margin-top: 0px;
+    color: grey;
+}
+.Txt{
+    margin-left:30%;
+    font-weight:bold;
+}
+.third{
+    height: 500px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.FOUR{
+    height:130px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.five{
+    height: 50px;
+    width: 100%;
+    border: 1px solid lightgray;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+#four{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    height: 100px;
+}
+.fa-heart{
+    color: red;
+}
+.fa-facebook{
+    margin-top: 20px;
+    color: grey;
+}
+.fa-twitter{
+    margin-top: 20px;
+    color: grey;
+    margin-left: 20px;
+}
+.fa-instagram{
+    margin-top: 20px;
+    color: grey;
+    margin-left: 20px;
+}
+.fa-youtube{
+    margin-top: 20px;
+    color: grey;
+    margin-left: 20px;
+}
+.fa-pinterest{
+    margin-top: 20px;
+    color: grey;
+    margin-left: 20px;   
+}
+.fa-envelope{
+    margin-top: 20px;
+    color: grey;
+    margin-left: 20px;  
+}
+#news{
+    display: inline-block;
+    height: 250px;
+    width: 150px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.footer ul{
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 130px;
+    margin-top: 20px;
+}
+.capital{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.small{
+    margin-top: 18px;
+    color: gray;
+    font-size: 17px;
+}
+.small:hover{
+    color: #00afef;
+}

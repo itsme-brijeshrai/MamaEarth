@@ -1,0 +1,195 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+  .navbarCommonToAll  #navbar1{
+        width: 100%;
+        height: 28px;
+        background-color: #d4424c;
+        display: flex;
+    }
+    .navbarCommonToAll #navbar1 a{
+        color: white;
+        margin-top: -0.5%;
+        text-decoration: none;
+        margin-left: 3%;        
+        margin-right: 7%;    
+        font-size: 14px;    
+    }
+    .navbarCommonToAll #navbar1 .iconify{
+        color: white;
+        font-size: 18px;
+        margin-left: 18%;
+        margin-top: 6px;
+    }
+
+    /* =============================NAVBAR 2=========================== */
+    .navbarCommonToAll #nav2{
+        display: flex;
+        border: 1px solid lightgray;
+        width: 100%;
+        height: 65px;
+        display: flex;
+        margin: auto;
+    }
+    .navbarCommonToAll #nav2 #logo{
+     width: 80%;
+     height: 22px;
+     /* border: 1px solid blue; */
+     display: flex; 
+     margin-left: 70%;   
+     margin-top: 15%; 
+    }
+
+    .navbarCommonToAll #nav2 #nav2search{
+        border: 1px solid lightgray;       
+        display: flex;  
+        margin-left: 10%;
+        width: 42%;
+        height: 38px; 
+        margin-top: 14px; 
+        border-radius: 5px;  
+        margin-right: 19%; 
+    }
+    .navbarCommonToAll #nav2 #nav2search input {
+        width: 100%;       
+        outline: none;
+        border: none;   
+        margin-left: 10px; 
+        margin-right: 5px;  
+    }
+    .navbarCommonToAll #nav2 #nav2search button{
+        width: 22%;
+        font-size: 15px;
+        color: white !important;
+        background-color: #00afef;
+        padding-right: 5px;
+        border: none;
+        outline: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    
+    .navbarCommonToAll #nav2 #nav2icon1,#nav2icon2{
+        width: 6%;
+        color: #00afef;
+        margin-top: 20px;
+        height: 38px;
+        /* border: 1px solid red; */
+    }
+    .navbarCommonToAll #nav2 .iconify{
+        color: #00afef;
+        font-size: 22px;
+        margin-bottom: -5px;
+        margin-right: 5px;
+    }
+    .navbarCommonToAll #nav2 a{
+        text-decoration: none;
+        color: #898995;
+        font-size: 18px;        
+    }
+    /* ============================NAVBAR 3=========================== */
+
+    
+#nav3{
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    color: black;
+    border:1px solid lightgray;
+}
+#nav3 #homet{
+    margin-left: 100px;
+    margin-top: 12px;
+    font-family: 'Lato',sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #00afef;
+    display: inline-block;
+}
+#nav3 .hometxt{
+    margin-top: 12px;
+    font-family: 'Lato',sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: grey;
+    display: inline-block;
+}
+#nav3 #beauty{
+    margin-left: 70px;
+}
+#nav3 #hair{
+    margin-left: 160px;
+}
+#nav3 #face{
+    margin-left:230px ;
+}
+#nav3 #body{
+    margin-left: 310px;
+}
+#nav3 #gift{
+    margin-left: 430px;
+}
+#nav3  ul{
+    display: inline-block;
+    vertical-align: top; 
+}
+
+#nav3 li{
+    list-style: none;
+    color: grey;
+    font-size: 12px;
+    margin-top: 15px
+}
+#nav3 #shampoo{
+    color: grey;
+    text-decoration: none;
+    font-weight: lighter;
+}
+#nav3 .bold{
+    color: black;
+    font-size: 16px !important;    
+}
+#nav3 .blue{
+    color: #00afef;
+    font-size: 15px;
+}
+
+#nav3 .dropdown {
+    position: absolute;
+    display: inline-block;
+    color: grey;
+    Z-index:10;
+    font-family: 'Lato',sans-serif;
+    font-size: 13px !important;   
+ }
+ #nav3 p{
+     font-weight: bold;
+     margin-left: 40px;
+    
+     /* border: 1px solid red; */
+ }
+ 
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    border-top: 1px solid #00afef;
+    margin-top: -8%;    
+    
+ }
+
+.dropdown:hover  .dropdown-content {
+    display: block;
+    background-color:white;
+    
+ }
+ #nav3 .inline li {
+     font-size: 13px;
+     line-height: 1.4;
+ }
+
+

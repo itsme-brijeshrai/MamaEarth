@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png">
+    <title>Mamaearth | Official Website | Buy Natural Skin Care Products Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="stylesheet" href="styles/newNavbar.css">    
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+    <div id="nav"></div>
+    <div id="signupCont">
+        <a href="login.html"><div id="signupCont-icn"><span class="iconify" data-icon="ant-design:arrow-left-outlined"></span></div></a>
+        <div id="signupContent">
+
+            <h3>Signup for the Goodness Inside</h3>
+            <fieldset id="f1">
+                 <input id="signupContent-inp-a" class="signupContent-inp" type="number" placeholder="Phone Number"> 
+                <legend>Phone Number</legend>  
+              </fieldset>
+              <p id="alertP"></p>
+
+              <fieldset id="f2">
+                <input id="signupContent-inp-c" class="signupContent-inp" type="text" placeholder="Email">
+               <legend>Email</legend>
+               </fieldset>
+               <p id="alertE"></p>
+
+               <fieldset>
+                <input id="username" class="signupContent-inp" type="text" placeholder="username">
+               <legend>Username</legend>
+               </fieldset>
+
+               <fieldset>
+                <input id="signupContent-inp-d" class="signupContent-inp" type="password" placeholder="password">
+               <legend>Password</legend>
+               </fieldset>
+
+            <div id="signup-btn">
+              <button >SignUp</button>
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
+<script type="module">
+    
+    // ======================================importing Navbar===================================//
+ 
+    import navbar from "./components/newNavbar.js";
+ 
+   let container = document.getElementById("nav");
+ 
+   container.innerHTML = navbar(); 
+ 
+
+ </script>
+<script src="JS/signup.js"></script>
