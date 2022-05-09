@@ -1,7 +1,10 @@
 
- import footer from "../components/footer.js";
+ import footer_body from "../components/footer_body.js";
 let end = document.getElementById('footshow')
-end.innerHTML = footer();
+end.innerHTML = footer_body();
+
+
+
 
 
 
