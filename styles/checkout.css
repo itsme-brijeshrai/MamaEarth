@@ -84,9 +84,9 @@
 }
 .mid1{
     /* border: 1px solid rgb(125, 20, 173); */
-    width: 83%;
+    width: 85%;
     height:1120px;
-    display: flex;
+    display: flex; 
     margin: auto;
     margin-top: 25px;
 }
@@ -99,17 +99,17 @@
     /* border: 1px solid red; */
     width: 750px;
     height:auto;
+    display: block;
     margin-top: 50px;
     
-}
-.cart{
-     border: 1px solid teal; 
-     width:32%;
-     height:150px;
-     position: absolute;
-     right: 130px;
-     margin-top: 15px;
     
+}
+#cart{
+     /* border: 1px solid teal;  */
+     width: 34rem;
+     margin-left: 325px;
+     
+     
     
 }
 #heading{
@@ -123,7 +123,7 @@
     display: flex;
     /* border: 1px solid blue; */
     width: 172%;
-    height: 700px;
+    height: 33rem;
     margin-top: -1px;
     
 }
@@ -147,11 +147,7 @@
     margin-left: -8px;
     margin-bottom: 15px; */
 } 
-.payment{
-   
-
-    
-    
+#payment{
     border: 1px solid #e6e6e6;
     height: 500px;
     width: 80%;
@@ -161,7 +157,7 @@
     border-radius: 5px;
     /* margin-right: 99px; */
 }
-.btn{
+.btn3{
     
     border-radius: 25px;
     color: rgb(116, 116, 116);
@@ -169,6 +165,8 @@
    border:1px rgb(220, 220, 220);
    text-align: center;
    margin-left: 8px;
+   width: 10%;
+   height: 35px;
    
    
 
@@ -311,13 +309,16 @@ button:focus{
     display: flex;
 }
 .box1{
-    /* border: 2px solid black; */
-    padding-top: 1rem;
+    border: 2px solid black;
+    
+    /* padding-top: 1rem; */
+    
 }
 .b1{
-    /* padding-top: 1rem; */
+     /* padding-top: 1rem;   */
     width: 20%;
     text-align: center;
+    
     
 }
 .b2{
@@ -325,9 +326,11 @@ button:focus{
     text-align: center;
     display: flex;
     justify-content: space-around;
+    
 }
 .fa-truck, .fa-wallet{
     font-size: 40px;
+    
 }
 .box2 img{
     width: 100%;
