@@ -11,7 +11,7 @@ function header_body(){
         <button type="button" class="btn btn-primary"><span><i class="fa-solid fa-magnifying-glass"></i>
         </span>Search</button></div>
     <div id="log">
-        <div><i class="fa-solid fa-cart-shopping"></i>Cart</div>
+        <div><i class="fa-solid fa-cart-shopping"></i><a href="cart.html">Cart</a></div>
         <div><i class="fa-solid fa-user"></i><a style = text-decoration:none; href="./sign up/signup.html">Login</a></div>
     </div>
 </div>`
