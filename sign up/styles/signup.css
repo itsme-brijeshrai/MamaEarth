@@ -1,0 +1,95 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#signupCont{
+    margin: auto;
+    margin-top: 50px;
+    border : 1px solid gray;
+    border-radius: 2%;
+    height: 510px;
+    width: 380px;
+    margin-left: 38%;
+    position: fixed;
+    padding-bottom: 16px;
+}
+
+#signupCont > h3 {
+    color: #20b9f1;
+    text-align: center;
+}
+
+#signupCont-icn{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    
+    color: grey;
+    margin-top: 14px;
+    margin-right: 10px;
+     
+}
+#signupContent{
+    width: 90%;
+    /* border: 1px solid greenyellow; */
+    /* height: 90%; */
+    margin: auto;
+    margin-top: 2%;
+    /* display: none; */
+}
+
+#signupContent > h3{
+    color: #1aa7da;
+    text-align: center;
+   margin-left: 13px;
+    margin-bottom: 35px;
+    margin-top: -22px;
+    font-size: 22px;
+    font-weight: 100;
+}
+#signupContent > input{
+    border-radius: 2%;
+    border: 0.3px solid white;
+    padding-left: 10px;
+    border:none;
+    outline:none;
+    
+}
+
+#signup-btn button{
+    background-color: #1a97c4;    
+    height: 30PX;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin-top: 15PX;
+    text-align:center; 
+    border: none;
+   font-size: 16px;
+   font-weight: 200;   
+   border-radius: 5px;
+   border-radius: 5px;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin-bottom: 20px;
+    
+}
+fieldset>legend{
+    color:rgb(125, 119, 119)
+}
+fieldset>input{
+    border:none;
+    outline:none;
+    width:100%;
+    height: 100%;
+}
+#alertP{
+    font-size: 14px;
+    font-weight: 300;
+}
+#alertE{
+    font-size: 14px;
+    font-weight: 300;
+}
